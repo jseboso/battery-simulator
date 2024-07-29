@@ -1,0 +1,15 @@
+==1063901== Memcheck, a memory error detector
+==1063901== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1063901== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1063901== Command: ./test_batt_update set_display_from_batt()\ 0\ V
+==1063901== Parent PID: 1063900
+==1063901== 
+==1063901== 
+==1063901== HEAP SUMMARY:
+==1063901==     in use at exit: 0 bytes in 0 blocks
+==1063901==   total heap usage: 2 allocs, 2 frees, 8 bytes allocated
+==1063901== 
+==1063901== All heap blocks were freed -- no leaks are possible
+==1063901== 
+==1063901== For lists of detected and suppressed errors, rerun with: -s
+==1063901== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
